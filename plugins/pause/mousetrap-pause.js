@@ -27,5 +27,10 @@
         self.paused = false;
     };
 
+    Mousetrap.prototype.getPauseState = function () {
+        var self = this;
+        return self.paused;
+    }
+
     Mousetrap.init();
 }) (Mousetrap);
